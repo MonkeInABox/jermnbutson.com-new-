@@ -1,0 +1,236 @@
+
+* {
+    margin: auto;
+    font-family: 'Alatsi', sans-serif;
+}
+html {
+    background: black;
+}
+
+.header {
+    color: antiquewhite;
+    font-size: 6vh;
+    text-align: center;
+    padding: 18px;
+    margin: auto;
+    background-color: #264653;
+}
+
+.diagram1 {
+    position:absolute;
+    width: 10vh;
+    height: 70%;
+    background: #2a9d8f;
+    top: 5%;
+    right: 37.5%;
+    z-index: -1;
+}
+.diagram3 {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    background: #2a9d8f;
+    top: 70%;
+    right: 37.5%;
+}
+.diagram4 {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background: #f4a261;
+    top: 80%;
+}
+
+.stationCircle1 {
+    background-color: antiquewhite;
+    border: 3vh solid #f4a261;    
+    height: 12vh;
+    width: 12vh;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    position: absolute;
+    transition: 0.3s;
+    top: 76%;
+    left: 20%;
+}
+.link1 {
+    opacity: 0;
+    color: antiquewhite;
+    font-size: 3vh;
+    text-align: left;
+    margin-left: -15%;
+    position: absolute;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.stationCircle1:hover .link1 {
+    transform: translateY(-170%);
+    opacity: 1;
+}
+.stationCircle1:hover {
+    scale: 1.5;
+    cursor: pointer;
+}
+.stationCircle2 {
+    background-color: antiquewhite;
+    border: 3vh solid #f4a261;    
+    height: 12vh;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 12vh;
+    position: absolute;
+    transition: 0.3s;
+    top: 76%;
+    right: 10%;
+}
+.stationCircle2:hover .link1 {
+    transform: translateY(-170%);
+    opacity: 1;
+}
+.stationCircle2:hover {
+    scale: 1.5;
+    cursor: pointer;
+}
+.stationRectangle {
+    width: 12vh;
+    height: 20vh;
+    border: 3vh solid antiquewhite;
+    background-color: black;
+    position: absolute;
+    transition: 0.3s;
+    -moz-border-radius: 3vh; 
+    -webkit-border-radius: 3vh; 
+    border-radius: 3vh;
+    top: 67%;
+    right: 71.5vh;
+}
+.link3 {
+    opacity: 0;
+    color: antiquewhite;
+    font-size: 3vh;
+    text-align: left;
+    margin-left: -5%;
+    position: absolute;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.stationRectangle:hover .link3 {
+    transform: translateY(-200%);
+    opacity: 1;
+    text-decoration: none;
+}
+.stationRectangle:hover {
+    scale: 1.5;
+    cursor: pointer;
+}
+.stationCircle3 {
+    background-color: antiquewhite;
+    border: 3vh solid #2a9d8f;  
+    height: 12vh;
+    width: 12vh;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    position: absolute;
+    transition: 0.3s;
+    top: 25%;
+    right: 35%;
+}
+.link2 {
+    opacity: 0;
+    color: antiquewhite;
+    font-size: 3vh;
+    text-align: left;
+    margin-top: 20%;
+    position: absolute;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.stationCircle3:hover .link2 {
+    transform: translateX(-140%);
+    opacity: 1;
+    text-decoration: none;
+}
+.stationCircle3:hover {
+    scale: 1.5;
+    cursor: pointer;
+}
+
+
+/*ABOUTPAGE*/
+.diagram1About {
+    position:absolute;
+    width: 8vh;
+    height: 70%;
+    background: #2a9d8f;
+    transform: rotate(45deg);
+    top: -15%;
+    left: 7%;
+    z-index: -1;
+}
+.stationCircleUnclickableAbout {
+    background-color: antiquewhite;
+    border: 20px solid #2a9d8f;  
+    height: 70px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 70px;
+    position: absolute;
+    right: 87%;
+    transition: 0.3s;
+
+}
+.linkABOUT {
+    opacity: 0;
+    color: antiquewhite;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.stationCircleUnclickableAbout:hover .linkABOUT {
+    transform: translateX(110%);
+    opacity: 1;
+    text-decoration: none;
+}
+.stationCircleUnclickableAbout:hover {
+    scale: 1.5;
+    cursor: pointer;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: -20%;
+    padding-bottom: 0%;
+}
+.row{
+    margin-top: 1%;
+    display: flex;
+    justify-content:space-between;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: -55% -10%;
+}
+.about-col img{
+    width: 100%;
+    margin-top: -1%;
+}
+.about-col h1{
+    padding-top: 0;
+    color: antiquewhite;
+    font-size: 28px;
+}
+.about-col p{
+    padding: 5% 0 5%;
+    color: antiquewhite;
+    font-size: 28px;
+}
