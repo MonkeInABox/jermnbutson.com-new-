@@ -104,7 +104,7 @@ html {
     -webkit-border-radius: 3vh; 
     border-radius: 3vh;
     top: 67%;
-    right: 71.5vh;
+    right: 74vh;
 }
 .link3 {
     opacity: 0;
@@ -136,7 +136,7 @@ html {
     position: absolute;
     transition: 0.3s;
     top: 25%;
-    right: 35%;
+    right: 35.5%;
 }
 .link2 {
     opacity: 0;
@@ -179,7 +179,8 @@ html {
     -webkit-border-radius: 50%;
     width: 70px;
     position: absolute;
-    right: 87%;
+    right: 90%;
+    top: 18%;
     transition: 0.3s;
 
 }
