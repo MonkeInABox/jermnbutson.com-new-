@@ -235,3 +235,105 @@ html {
     color: antiquewhite;
     font-size: 28px;
 }
+
+
+
+
+
+
+/* CONTACT PAGE!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+input,textarea,p {
+    outline: 0;
+    background: antiquewhite;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+.contact {
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.contact .fields {
+    position: relative;
+    border-radius: 10px;
+    /*padding: 15px;*/
+}
+.contact input[type="text"], .contact input[type="email"] {
+    display: block;
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid antiquewhite;
+    width: 100%;
+    border-radius: 10px;
+    background: antiquewhite;
+}
+.contact input[type="text"]:focus, .contact input[type="email"]:focus {
+    border: 1px solid antiquewhite;
+    border-radius: 10px;
+    background: antiquewhite;
+}
+.contact input[type="text"]::placeholder, 
+.contact input[type="email"]::placeholder, 
+.contact textarea::placeholder {
+    color: #2a9d8f;
+    background: antiquewhite;
+    border-radius: 10px;
+}
+.contact textarea {
+    resize: none;
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px antiquewhite;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+.contact textarea:focus {
+    border: 1px antiquewhite;
+    border-radius: 10px;
+}
+.contact input[type="submit"] {
+    display: block;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 15px;
+    border: 0;
+    background-color: #2a9d8f;
+    font-weight: bold;
+    color: antiquewhite;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+}
+.contact input[type="submit"]:hover {
+    background-color: #4ba096;
+    border-radius: 10px;
+}
+.contact input[name="email"] {
+    position: relative;
+    display: block;
+    background: antiquewhite;
+    border-radius: 10px;
+}
+.contact label {
+    position: relative;
+    color: antiquewhite;
+    background: antiquewhite;
+    border-radius: 10px;
+}
+.contact label i {
+    position: absolute;
+    color: antiquewhite;
+    top: 31px;
+    left: 15px;
+    z-index: 10;
+    border-radius: 10px;
+}
+.contact label i ~ input {
+    padding-left: 45px !important;
+    border-radius: 10px;
+}
+.contact .responses {
+    padding: 15px;
+    margin: 0;
+}
