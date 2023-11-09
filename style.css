@@ -242,9 +242,9 @@ html {
 
 
 /* CONTACT PAGE!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-input,textarea,p {
+.contact input,textarea,p {
     outline: 0;
-    background: antiquewhite;
+    /*background: antiquewhite;*/
     border-radius: 10px;
     border-radius: 10px;
 }
