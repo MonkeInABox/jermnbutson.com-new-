@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    font-family: Alatsi;
+    letter-spacing: .2rem;
+}
+ 
+/* The container controls the size of 
+the box that contains the squares */
+#container {
+    width: 50%;
+    margin: 0 auto;
+}
+ 
+p {
+    color: white;
+    font: 500%;
+    text-align: center;
+}
+.square {
+    --squareSize: 30%;
+    background: purple;
+    width: var(--squareSize);
+    padding-bottom: var(--squareSize);
+    border-radius: 15%;
+    float: left;
+    margin: 1.66%;
+    cursor: pointer;
+ 
+}
+ 
+h1 {
+    color: white;
+    text-align: center;
+    size: 200%;
+}
+ 
+h2 {
+    color: white;
+    text-align: center;
+    size: 50%
+}
+
+span {
+    color: white;
+}
+
+.popup {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+    position:fixed;
+    visibility: hidden;
+    background-color:white;
+    color: black;
+    font-size: 150%;
+    font-variant: bold;
+    text-align: center;
+    border-radius: 40%;
+    padding: 2%;
+    z-index: 1;
+    top: 45dvh;
+    left: 41.5dvw;
+  }
+  
+  /* Toggle this class when clicking on the popup container (hide and show the popup) */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
